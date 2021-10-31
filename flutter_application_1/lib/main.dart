@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-  
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Máy tính trên điện thoại'),
@@ -28,8 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-   @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
@@ -61,21 +59,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: MediaQuery.of(context).size.width * .75,
                 child: Table(
                   children: [
-                    TableRow(children: [
-                      
-                    ]),
-                    TableRow(children: [
-                      
-                    ]),
-                    TableRow(children: [
-                      
-                    ]),
-                    TableRow(children: [
-                     
-                    ]),
-                    TableRow(children: [
-                      
-                    ]),
+                    TableRow(children: []),
+                    TableRow(children: []),
+                    TableRow(children: []),
+                    TableRow(children: []),
+                    TableRow(children: []),
                   ],
                 ),
               ),
@@ -83,17 +71,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: MediaQuery.of(context).size.width * 0.25,
                 child: Table(
                   children: [
-                    TableRow(children: [
-                      
-                    ]),
-                    TableRow(children: [
-                      
-                    ]),
-                    TableRow(children: [
-                      
-                    ]),
-                    TableRow(children: [
-                      
+                    TableRow(children: []),
+                    TableRow(children: []),
+                    TableRow(children: []),
+                    TableRow(children: []),
                   ],
                 ),
               ),
